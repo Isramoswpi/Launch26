@@ -18,13 +18,19 @@ hardButton.addEventListener("click", makeHard);
     let max = 100;
 
 function makeHard() {
-    let max = 200;
+    max = 200;
+    loadGame();
+
 }
 function makeEasy() {
-  let max = 50;
+  max = 50;
+  loadGame();
+
 }
 function makeNormal() {
-     let max  = 100;
+     max = 100;
+     loadGame();
+
 }
 
 
