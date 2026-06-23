@@ -4,14 +4,14 @@ const guessButton = document.getElementById("guess-button");
 const resetButton = document.getElementById("reset-button");
 const messageText = document.getElementById("message-text");
 const guessCountText = document.getElementById("guess-count-text");
-const easy-button = document.getElementById("easy-button");
-const normal-button = document.getElementById("normal-button");
-const hard-button = document.getElementById("hard-button");
+const easyButton = document.getElementById("easy-button");
+const normalButton = document.getElementById("normal-button");
+const hardButton = document.getElementById("hard-button");
 
 //create min max variables
-easy-button.addEventListener("click", make-easy);
-normal-button.addEventListener("click", make-normal);
-hard-button.addEventListener("click", make-hard);
+easyButton.addEventListener("click", make-easy);
+normalButton.addEventListener("click", make-normal);
+hardButton.addEventListener("click", make-hard);
 
 // Default values
     let min = 1;
