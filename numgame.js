@@ -4,10 +4,31 @@ const guessButton = document.getElementById("guess-button");
 const resetButton = document.getElementById("reset-button");
 const messageText = document.getElementById("message-text");
 const guessCountText = document.getElementById("guess-count-text");
+const easy-button = document.getElementById("easy-button");
+const normal-button = document.getElementById("normal-button");
+const hard-button = document.getElementById("hard-button");
 
 //create min max variables
-let min = 1;
-let max = 100;
+easy-button.addEventListener("click", make-easy);
+normal-button.addEventListener("click", make-normal);
+hard-button.addEventListener("click", make-hard);
+
+// Default values
+    let min = 1;
+    let max = 100;
+
+function make-hard() {
+    let max = 200;
+}
+function make-easy() {
+  let max = 50;
+}
+function make-normal() {
+     let max  = 100;
+}
+
+
+
 
 //create a variable to hold the random number
 let secret;
