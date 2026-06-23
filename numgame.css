@@ -1,0 +1,51 @@
+.game-card{
+        background-color: rgb(93, 139, 139);
+
+
+}
+
+.game-box {
+background-color: rgb(26, 143, 238);
+border:2px solid rgb(24, 27, 233);
+ border-radius: 12px;
+ padding: 20px;
+ text-align: center;
+
+
+}
+
+.game-box label{
+    font-weight: bold;
+
+
+}
+
+#num-field{
+    width: 120px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+button{
+    background-color: rgb(209, 115, 0);
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    margin: 5px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+background-color: blue;
+
+}
+
+#guess-count-text{
+    font-weight: bold;
+
+}
