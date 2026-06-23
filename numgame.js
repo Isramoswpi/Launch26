@@ -50,6 +50,7 @@ guessCountText.innerHTML = `Guesses: ${guessCount}`;
 
 if (guess === secret) {
     messageText.innerHTML = `Congratulations! ${secret} is the correct number.`;
+    new Audio('kids-saying-yay-sound-effect_3.mp3').play().catch(()=>{});
     if (myConfetti) myConfetti({
     particleCount: 3000, 
      spread: 160
