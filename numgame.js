@@ -30,7 +30,7 @@ function loadGame() {
     messageText.textContent= `Enter a number between ${min} and ${max}.`;
     guessCountText.innerHTML = "Guesses: 0";
     numField.focus();
-
+    new Audio(`
 }
 
 
@@ -58,8 +58,10 @@ if (guess === secret) {
      
 } else if (guess < secret) {
     messageText.innerHTML = `${guess} is too low! Try again.`;
+    new Audio('fahhhhhhhhhhhhhh.mp3').play().catch(()=>{});
 } else {
     messageText.innerHTML = `${guess} is too High! Try again.`;
+    new Audio('fahhhhhhhhhhhhhh.mp3').play().catch(()=>{});
 }
 }
 
