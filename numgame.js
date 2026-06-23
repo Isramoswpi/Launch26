@@ -9,21 +9,21 @@ const normalButton = document.getElementById("normal-button");
 const hardButton = document.getElementById("hard-button");
 
 //create min max variables
-easyButton.addEventListener("click", make-easy);
-normalButton.addEventListener("click", make-normal);
-hardButton.addEventListener("click", make-hard);
+easyButton.addEventListener("click", makeEasy);
+normalButton.addEventListener("click", makeNormal);
+hardButton.addEventListener("click", makeHard);
 
 // Default values
     let min = 1;
     let max = 100;
 
-function make-hard() {
+function makeHard() {
     let max = 200;
 }
-function make-easy() {
+function makeEasy() {
   let max = 50;
 }
-function make-normal() {
+function makeNormal() {
      let max  = 100;
 }
 
@@ -51,8 +51,7 @@ function loadGame() {
     messageText.textContent= `Enter a number between ${min} and ${max}.`;
     guessCountText.innerHTML = "Guesses: 0";
     numField.focus();
-    new Audio(`
-}
+    }
 
 
 
