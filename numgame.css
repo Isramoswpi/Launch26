@@ -40,6 +40,22 @@ button{
     cursor: pointer;
 }
 
+#easy-button {
+    background-color: green;
+}
+
+#hard-button {
+    background-color: red;
+}
+
+#easy-button:hover {
+    background-color: lightgreen;
+}
+
+#hard-button:hover {
+    background-color: lightcoral;
+}
+
 button:hover{
 background-color: blue;
 
